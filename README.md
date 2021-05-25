@@ -7,5 +7,7 @@ Helpful info for running solver:
 
    At line 6, Reynolds number can be changed (1, 100, 1000).
    At line 18, stable timestep values are provided for varying choices of Reynolds number.
-
-   At line 66, there is a block of commented code for saving PNGs at every 50th timestep so that you can make movies.
+   At lines 100-104 and 108-112, the momentum equations can be solved with/without the non-linear terms by commenting in/out appropriately.
+   At line 166, there is a block of commented code for saving PNGs at every 50th timestep so that you can make movies.
+   At lines 183/186, either error term works.
+   At lines 202/203 are the streamfunction and vorticity solutions, if desired.
